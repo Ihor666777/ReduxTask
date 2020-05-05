@@ -1,13 +1,6 @@
-import store from './store'
-import React from 'react';
-import ReactDOM from 'react-dom';
-import {Provider} from 'react-redux';
-import Landing from './components/Landing'
+import React from 'react'
+import ReactDOM from 'react-dom'
 
 
-ReactDOM.render(
-  <Provider store={store}>
-    <Landing />
-  </Provider>,
-  document.getElementById('root')
-)
+const element = <h1>Hello, world</h1>;
+ReactDOM.render(element, document.getElementById('root'));

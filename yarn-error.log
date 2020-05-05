@@ -1,0 +1,45 @@
+Arguments: 
+  /Users/ihor.pylypyak/.nvm/versions/node/v12.9.1/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js start
+
+PATH: 
+  /usr/local/opt/mongodb-community@4.0/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/ihor.pylypyak/.poetry/bin:/usr/local/mysql/bin:/Users/ihor.pylypyak/.nvm/versions/node/v12.9.1/bin:/Users/ihor.pylypyak/.rbenv/shims:/Users/ihor.pylypyak/.rbenv/shims:/Users/ihor.pylypyak/.poetry/bin:/Users/ihor.pylypyak/.rvm/gems/ruby-2.4.1/bin:/Users/ihor.pylypyak/.rvm/gems/ruby-2.4.1@global/bin:/Users/ihor.pylypyak/.rvm/rubies/ruby-2.4.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/ihor.pylypyak/.rvm/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.9.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/ihor.pylypyak/Documents/own-projects/ReduxTask/package.json: Unexpected token } in JSON at position 327
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "private": false,
+    "name": "redux_intro",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "author": "pihorb",
+    "license": "ISC",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
